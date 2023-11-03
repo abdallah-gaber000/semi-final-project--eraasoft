@@ -7,7 +7,6 @@
 header {
   padding: 10px;
   background:#E3EDF7;
-	/* background:rgb(240, 240, 251); */
   color: black;
 	position: sticky;
 	z-index: 20;
@@ -28,11 +27,13 @@ nav {
 }
 
 .con ul {
+  border: 1px solid red;
   display: flex;
-  gap: 25px;
+  gap: 10px;
+  /* padding: 0.4rem; */
   list-style: none;
-	/* justify-content: center; 
-  align-items: center; */
+	justify-content: center; 
+  align-items: center;
 }
 nav a {
   color: black;
@@ -67,7 +68,13 @@ nav button {
 .bar-menu {
   display: none;
 }
-
+.crat {
+  align-items: center;
+  padding:6px 5px;
+}
+.crat p {
+  text-align: center;
+}
 .hero_container {
 	/* border: 1px solid red; */
 	display: flex;
@@ -119,11 +126,10 @@ nav button {
   overflow: hidden;
   border-radius: 10px;
   transition: 0.3s;
-  transition:  0.5s;
 }
 .discount_item:hover {
-  box-shadow: 10px  5px 15px rgba(0, 0, 0,0.09);
-  transform: scale(1.2); 
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+  /* box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px; */
 }
 .discount_itemimg {
    width: 50%;
@@ -177,6 +183,7 @@ main {
 footer {
   width: 100%;
   background: black;
+  /* height: 90vh; */
 }
 .footer-container {
   padding:  15px 0;
@@ -190,6 +197,7 @@ footer {
   color: #E3EDF7;
 }
 .footer_itme ul {
+  
   list-style: none;
 }
 .footer_itme h6 {
@@ -211,7 +219,7 @@ margin: 5px 0 ;
     display: flex;
     justify-content: center;
   }
-  ul {
-    display: none;
+  .con ul {
+    display: none !important;
   }
 }

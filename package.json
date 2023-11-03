@@ -1,0 +1,14 @@
+{
+  "name": "semi-final-project--eraasoft",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "json-server --watch assets/data/electronic.json"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "json-server": "^0.17.4"
+  }
+}

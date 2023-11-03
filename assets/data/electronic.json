@@ -1,0 +1,52 @@
+{
+	"posts": [
+		{
+			"id": 1,
+			"imeagproduct": "/assets/img/21-20230810062415-kv-pd.png",
+			"descrition": "efrgrgjrohqehilrhiqelqglbgrlqbhlibrg",
+			"onsail": false,
+			"price": 3000,
+			"newprice": null
+		},
+		{
+			"id": 2,
+			"imeagproduct": "/assets/img/21-20230810062415-kv-pd.png",
+			"descrition": "efrgrgjrohqehilrhiqelqglbgrlqbhlibrg",
+			"onsail": true,
+			"price": 4000,
+			"newprice": 2000
+		},
+		{
+			"id": 3,
+			"imeagproduct": "/assets/img/341b79240d2678a0a93637d3f4100fe4.webp",
+			"descrition": "efrgrgjrohqehilrhiqelqglbgrlqbhlibrg",
+			"onsail": true,
+			"price": 4500,
+			"newprice": 2500
+		},
+		{
+			"id": 4,
+			"imeagproduct": "/assets/img/341b79240d2678a0a93637d3f4100fe4.webp",
+			"descrition": "efrgrgjrohqehilrhiqelqglbgrlqbhlibrg",
+			"onsail": true,
+			"price": 5000,
+			"newprice": 3000
+		},
+		{
+			"id": 5,
+			"imeagproduct": "/assets/img/341b79240d2678a0a93637d3f4100fe4.webp",
+			"descrition": "efrgrgjrohqehilrhiqelqglbgrlqbhlibrg",
+			"onsail": false,
+			"price": 5500,
+			"newprice": null
+		},
+		{
+			"id": 6,
+			"imeagproduct": "/assets/img/341b79240d2678a0a93637d3f4100fe4.webp",
+			"descrition": "efrgrgjrohqehilrhiqelqglbgrlqbhlibrg",
+			"onsail": false,
+			"price": "6000$",
+			"newprice": null
+		}
+	]
+}
